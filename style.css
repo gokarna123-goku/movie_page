@@ -70,6 +70,13 @@ a{
     align-items: flex-start;
     flex-direction: column;
 }
+.tag{
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: #dd0202;
+    border-left: 2px solid #dd0202;
+}
 .movie_title{
     font-size: 4.2rem;
     font-weight: 600;
@@ -135,7 +142,7 @@ a{
     color: #dd0202;
 }
 .btn_play_now{
-    background: #dd0202;
+    background: transparent;
     width: 180px;
     height: 42px;
     border: 2px solid #dd0202;
@@ -146,6 +153,12 @@ a{
     font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 0.09rem;
+    color: #dd0202;
+    transition: 0.55s ease-out;
+}
+.btn_play_now:hover{
+    background: #dd0202;
+    border: 2px solid #dd0202;
     color: #c0c0c0;
 }
 
