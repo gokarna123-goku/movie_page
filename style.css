@@ -45,7 +45,7 @@ a{
     list-style-type: none;
 }
 .nav_link a{
-    color: #a8a8a8;
+    color: #c0c0c0;
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 0.01rem;
@@ -55,6 +55,99 @@ a{
     color: #dd0202;
 }
 
+/* Hero Section */
+.hero_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 10.5rem;
+}
+.info_section{
+    width: 45%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.movie_title{
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: #a8a8a8;
+}
+.movie_desc{
+    color: #848484;
+}
+.img_carousel_section{
+    width: 55%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.img_title_Section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}
+.season_title{
+    font-size: 1.7rem;
+    color: #f38e8e;
+}
+.movie_img_section{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1.5rem;
+}
+.img_section{
+    /* background: rgba( 255, 255, 255, 0.2 ); */
+    background: rgba(221, 4, 4, 0.1);
+    box-shadow: 0 8px 20px 0 rgba(135, 31, 31, 0.37);
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 0px;
+    /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.movie_img{
+    width: 160px;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+.movie_img:hover{
+    filter: saturate(50%);
+}
+.season{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #a8a8a8;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+.season:hover{
+    color: #dd0202;
+}
+.btn_play_now{
+    background: #dd0202;
+    width: 180px;
+    height: 42px;
+    border: 2px solid #dd0202;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.09rem;
+    color: #c0c0c0;
+}
 
 
 /* End */
